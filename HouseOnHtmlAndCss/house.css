@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB;
+}
+.house-container {
+    position: relative;
+}
+.house {
+    width: 200px;
+    height: 200px;
+    background-color: #8B4513;
+    position: relative;
+    background-image: linear-gradient(90deg, #9B4C13 10%, transparent 10%, transparent 20%, #9B4C13 20%, #9B4C13 30%, transparent 30%, transparent 40%, #9B4C13 40%, #9B4C13 50%, transparent 50%, transparent 60%, #9B4C13 60%, #9B4C13 70%, transparent 70%, transparent 80%, #9B4C13 80%, #9B4C13 90%, transparent 90%);
+    background-size: 40px 20px;
+}
+.roof {
+    width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 100px solid #A52A2A;
+    position: absolute;
+    top: -100px;
+    left: -10px;
+    background-image: linear-gradient(90deg, #8B0000 10%, transparent 10%, transparent 20%, #8B0000 20%, #8B0000 30%, transparent 30%, transparent 40%, #8B0000 40%, #8B0000 50%, transparent 50%, transparent 60%, #8B0000 60%, #8B0000 70%, transparent 70%, transparent 80%, #8B0000 80%, #8B0000 90%, transparent 90%);
+    background-size: 40px 20px;
+}
+.window {
+    width: 50px;
+    height: 50px;
+    background-color: #ADD8E6;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    border: 4px solid #FFFFFF;
+}
+.chimney {
+    width: 30px;
+    height: 60px;
+    background-color: #A52A2A;
+    position: absolute;
+    top: -60px;
+    left: 130px;
+    background-size: 20px 10px;
+}
+.door {
+    width: 50px;
+    height: 80px;
+    background-color: #654321;
+    position: absolute;
+    bottom: 0;
+    left: 75px;
+    border-radius: 5px;
+}
